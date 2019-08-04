@@ -1,4 +1,4 @@
-package com.homework.utils.validator;
+package com.homework.validator;
 
 import com.homework.utils.DateUtil;
 

@@ -1,8 +1,8 @@
 package com.homework.utils;
 
 import com.homework.bean.User;
-import com.homework.utils.validator.FileValidator;
-import com.homework.utils.validator.UserValidator;
+import com.homework.validator.FileValidator;
+import com.homework.validator.UserValidator;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -18,11 +18,7 @@ import java.util.Optional;
  * @description：
  * @modified By：
  */
-public class FileReadUtil {
-
-    public static void main(String[] args) {
-        readFile("D:\\Test\\test.txt");
-    }
+public class FileUtil {
 
     public static void readFile(String path) {
 
